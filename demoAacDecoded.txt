@@ -1,0 +1,1 @@
+{"query":{"count":4,"created":"2016-04-09T19:14:34Z","lang":"en-us","results":{"quote":[{"symbol":"YHOO","Ask":"36.28","AverageDailyVolume":"17662300","Bid":"36.21","AskRealtime":null,"BidRealtime":null,"BookValue":"30.78","Change_PercentC
