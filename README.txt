@@ -15,6 +15,6 @@ General Usage:
 - After running decoder, DECODED_FILE will be the file name of decoded file.
 - For mp3, aac files, a small lose of fidelity will occur after the message is encoded. For wav file, fidelity is preserved. Overall, for fidelity, wav > mp3 > aac.
 - JUMPER is highly recommended to be set at 100 for wav file, and 1600 for both mp3 and aac files. This will facilitate the encoding.
-- At recommended JUMPER setting, the encoding rate for mp3 and aac files is about 0.01%, which means for each 10MB the program is able to encode roughly 1250 characters (1250 Bytes) into the file. The encoding rate for wav file is about 0.1%, which means for each 10MB the program is able to encode roughly 10,000 characters into the file.
+- At recommended JUMPER setting, the encoding rate for mp3 and aac files is about 0.01%, which means for each 10MB the program is able to encode roughly 1250 characters (1250 Bytes) into the file. The encoding rate for wav file is about 0.2%, which means for each 10MB the program is able to encode roughly 10,000 characters into the file.
 - Max number of characters that set to be allowed to encode is about 2^32, due to the limit of java int size.
 - Demo for mp3, aac, and wav are included in the package.
